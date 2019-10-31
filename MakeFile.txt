@@ -1,0 +1,7 @@
+CC = g++
+
+all:
+	$(CC) atividade1.c -fpermissive -o atividade1
+
+clean:
+	rm atividade1

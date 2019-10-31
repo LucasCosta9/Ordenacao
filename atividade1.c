@@ -86,7 +86,7 @@ void main()
 
     //Pegar vetor do arquivo
       FILE *arquivo;
-      fptr = fopen("couting.txt", "r");
+      arquivo = fopen("couting.txt", "r");
                 int tam, i, e;
 
                 if(!arquivo){return;}                   //Verifica abertura do arquivo
